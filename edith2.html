@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="project2.css">
+    <title>FINANCIAL TRACKER APP</title>
+    
+</head>
+<body>
+    
+    <header>
+        <h2>FINANCIAL TRACKER APP</h2>
+    </header>
+
+    <div class="container">
+        <h4>YOUR BALANCE</h4>
+        <H1 id="BALANCE">sh 0.00</H1>
+    <div class="inc-exp-container">
+        <div>
+<h4> INCOME</h4>
+    <P id="money-plus" class="money plus">sh0.00</P>
+            </div>
+            <div>
+                <h4> EXPENSE</h4>
+                <P id="money-minus" class="money minus">sh0.00</P>
+                    </div>
+    </div>
+
+    <h3>HISTORY</h3>
+    <Ul id="list" class="list">
+         
+    </Ul>
+    <h3>ADD NEW TRANSACTION</h3>
+
+    <form id="transaction-form">
+        <div class="form-control">
+            <label for="text">Amount:</label>
+            <input type="number" id="Amount" placeholder="Enter Amount" required>
+        </div>
+    
+        <div class="form-control">
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+        </div>
+    
+        <div class="form-control">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="food">Food</option>
+                <option value="transport">Transport</option>
+                <option value="bills">Bills</option>
+                <option value="clothing">Clothing</option>
+            </select>
+        </div>
+    
+        <button type="submit" class="btn">Add Transaction</button>
+    </form>
+    
+    <h3>Salary</h3>
+    <form id="salary-form">
+        <div class="form-control">
+            <label for="salary">Salary:</label>
+            <input type="number" id="Salary" placeholder="Enter Amount" required>
+        </div>
+    
+        <div class="form-control">
+            <label for="salary-date">Date:</label>
+            <input type="date" id="salary-date" required>
+        </div>
+    
+        <button type="submit" class="btn">Add Salary</button>
+    </form>
+    
+        </div>
+    
+       
+        
+    </FOrm>
+</div>
+
+ <script src="project2.js"></script>   
+</body>
+</html>
